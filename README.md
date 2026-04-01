@@ -23,9 +23,9 @@ A robust Retrieval-Augmented Generation (RAG) application that allows users to u
 
 Before you begin, ensure you have the following installed:
 - Python 3.10+
-- [Docker](https://www.docker.com/) (for Qdrant)
+- [Docker](https://www.docker.com/) 
 - [Inngest CLI](https://www.inngest.com/docs/local-development)
-- [uv](https://github.com/astral-sh/uv) (recommended for dependency management)
+- [uv](https://github.com/astral-sh/uv) 
 
 ##  Setup
 
@@ -46,8 +46,8 @@ Create a `.env` file in the root directory:
 ```env
 OPENAI_API_KEY=your_openai_api_key_here
 QDRANT_URL=http://localhost:6333
-INNGEST_EVENT_KEY=  # Optional for local dev
-INNGEST_SIGNING_KEY= # Optional for local dev
+INNGEST_EVENT_KEY=  # skip if local
+INNGEST_SIGNING_KEY= # skip..!
 ```
 
 ### 4. Start Infrastructure
