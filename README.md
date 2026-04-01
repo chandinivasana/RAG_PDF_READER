@@ -2,7 +2,7 @@
 
 A robust Retrieval-Augmented Generation (RAG) application that allows users to upload PDF documents, index them into a vector database, and ask questions against the content using Large Language Models.
 
-## 🚀 Features
+##  Features
 
 - **Asynchronous Processing:** Uses Inngest to handle long-running PDF ingestion and LLM query workflows reliably.
 - **Smart Chunking:** Leverages LlamaIndex's `SentenceSplitter` for context-aware document partitioning.
@@ -10,7 +10,7 @@ A robust Retrieval-Augmented Generation (RAG) application that allows users to u
 - **Modern UI:** Clean Streamlit interface for seamless document management and chat interactions.
 - **Advanced Embeddings:** Powered by OpenAI's `text-embedding-3-large` for high-dimensional semantic understanding.
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Frontend:** [Streamlit](https://streamlit.io/)
 - **Backend:** [FastAPI](https://fastapi.tiangolo.com/)
@@ -19,7 +19,7 @@ A robust Retrieval-Augmented Generation (RAG) application that allows users to u
 - **LLM & Embeddings:** [OpenAI](https://openai.com/)
 - **Data Framework:** [LlamaIndex](https://www.llamaindex.ai/)
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before you begin, ensure you have the following installed:
 - Python 3.10+
@@ -27,7 +27,7 @@ Before you begin, ensure you have the following installed:
 - [Inngest CLI](https://www.inngest.com/docs/local-development)
 - [uv](https://github.com/astral-sh/uv) (recommended for dependency management)
 
-## ⚙️ Setup
+##  Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -61,7 +61,7 @@ Start the Inngest Dev Server:
 inngest dev
 ```
 
-## 🚀 Running the Application
+##  Running the Application
 
 Follow these steps in order to get the system up and running:
 
