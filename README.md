@@ -89,7 +89,7 @@ In another terminal, launch the user interface:
 uv run streamlit run streamlit_app.py
 ```
 
-## 📖 How to Use
+## SpoonFeeding?!-->
 
 1. **Upload:** Open the Streamlit app (usually at `http://localhost:8501`) and upload a PDF. This triggers the ingestion workflow.
 2. **Ingestion:** Inngest will asynchronously handle the chunking and embedding. You can monitor progress in the Inngest Dev Server UI.
